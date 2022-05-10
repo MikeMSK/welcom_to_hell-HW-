@@ -1,0 +1,22 @@
+.App {
+    background: #e0e0e0;
+}
+
+.header {
+    font-style: italic;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background: grey;
+
+}
+
+.styleButton {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+}
+
+.body {
+    padding: 15px;
+}

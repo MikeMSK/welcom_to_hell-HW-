@@ -1,0 +1,57 @@
+
+.oneMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+.hw1 {
+    margin-top: 10px;
+}
+.hw1 span{
+    width: 100px;
+    border-bottom: grey 1px solid;
+}
+
+.avatarMessage {
+}
+
+.avatarMessage img {
+    align-items: flex-end;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.corner {
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 40px, #eaeaea 0);
+}
+
+.bodyMessage {
+    display: flex;
+    flex-direction: column;
+    background-color: #eaeaea;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    max-width: 350px;
+    height: auto;
+}
+
+.nickNameMessage {
+    padding: 15px;
+}
+
+.textMessage {
+    word-wrap: break-word;
+    padding: 15px;
+}
+
+.timeSendMessage {
+    align-items: flex-end;
+    padding: 15px;
+
+}

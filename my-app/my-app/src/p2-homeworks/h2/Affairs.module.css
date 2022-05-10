@@ -1,0 +1,61 @@
+.someClass {
+
+}
+
+.nameStatusTask {
+    background: lightgrey;
+    padding: 25px;
+    border-radius: 7px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    background: #9553e0;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background: white;
+}
+
+.hw2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.hw2 span {
+    border-bottom: grey 1px solid;
+    margin-bottom: 15px;
+}
+
+.hw2 div {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.name {
+    width: 80px;
+}
+
+.priority {
+    width: 50px;
+}
+
+.buttonBottom {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.buttonBottom button {
+    width: 70px;
+    background: #ab75e3;
+    border-radius: 3px;
+}
+
+.buttonBottom button:hover {
+    background: white;
+}
