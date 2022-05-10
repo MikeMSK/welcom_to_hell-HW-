@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/welcom_to_hell-HW-/static/css/main.23c4d5b4.css",
+    "main.js": "/welcom_to_hell-HW-/static/js/main.62eacf08.js",
+    "index.html": "/welcom_to_hell-HW-/index.html",
+    "main.23c4d5b4.css.map": "/welcom_to_hell-HW-/static/css/main.23c4d5b4.css.map",
+    "main.62eacf08.js.map": "/welcom_to_hell-HW-/static/js/main.62eacf08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23c4d5b4.css",
+    "static/js/main.62eacf08.js"
+  ]
+}
