@@ -1,0 +1,47 @@
+.someClass {
+
+}
+
+.error {
+    color: #fa4b4b;
+}
+
+.errorInput {
+    background: #ffb1b1;
+    border: 1px solid #e77676;
+}
+
+.input {
+    background: #caf897;
+    border: 1px solid #79bb26;
+}
+
+.button {
+    background: rgb(189, 189, 189);
+    padding-right: 10px;
+}
+
+.inputClass {
+    width: 150px;
+}
+
+.menu {
+    padding: 20px 0px;
+}
+
+.hw3 {
+    border-bottom: grey 1px solid;
+}
+.marginHeader{
+    margin-top: 10px;
+}
+
+.buttonAdd button {
+    margin-top: 10px;
+    padding: 5px 0px;
+    width: 30px;
+    border-radius: 100px;
+}
+.buttonAdd span{
+    margin-left: 5px;
+}
