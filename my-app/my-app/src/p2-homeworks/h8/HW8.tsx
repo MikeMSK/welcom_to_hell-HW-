@@ -1,8 +1,13 @@
 import React, {useState} from 'react'
 import {homeWorkReducer} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import s from "./HW8.module.css"
 
-// export type UserType =
+export type UserType = {
+    _id: number,
+    name: string,
+    age: number,
+}
 
 const initialPeople = [
     {_id: 0, name: 'Кот', age: 3},
@@ -14,35 +19,54 @@ const initialPeople = [
 ]
 
 function HW8() {
-    const [people, setPeople] = useState<any>(initialPeople) // need to fix any
 
-    // need to fix any
-    const finalPeople = people.map((p: any) => (
-        <div key={p._id}>
-            some name, age
+    const [people, setPeople] = useState<Array<UserType>>(initialPeople)
+
+    const finalPeople = people.map((p: UserType) => (
+        <div key={p._id}
+             className={s.qwer}>
+            <div>{p.name}</div>
+            <div>{p.age}</div>
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
+    const sortName_AZ = () => setPeople(homeWorkReducer(initialPeople, {
+        type: 'NAME_AZ',
+        payload: 'up'
+    }))
+    const sortName_ZA = () => setPeople(homeWorkReducer(initialPeople, {
+        type: 'NAME_ZA',
+        payload: 'down'
+    }))
+    const sortAge40plus = () => setPeople(homeWorkReducer(initialPeople, {
+        type: 'AGE_40+',
+        payload: 40
+    }))
+    const reset = () => {
+        setPeople(initialPeople)
+    }
 
     return (
         <div>
-            <hr/>
-            homeworks 8
-
-            {/*should work (должно работать)*/}
-            {finalPeople}
-
-            <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div>sort down</div>
-            check 18
-
-            <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativePeople/>*/}
-            <hr/>
+            <div className={s.marginHeader}>
+                <span className={s.hw8}>
+                    homework 8
+                </span>
+            </div>
+            <div className={s.body}>
+                {finalPeople}
+            </div>
+            <div className={s.button}>
+                <SuperButton onClick={sortName_AZ}>А-Я</SuperButton>
+                <SuperButton onClick={sortName_ZA}>Я-А</SuperButton>
+                <SuperButton onClick={sortAge40plus}>40+</SuperButton>
+                <SuperButton onClick={reset}>RESET</SuperButton>
+            </div>
         </div>
     )
 }
 
 export default HW8
+
+
+
