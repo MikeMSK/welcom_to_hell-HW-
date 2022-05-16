@@ -52,7 +52,7 @@ function HW2() {
 
     return (
         <div className={s.hw2}>
-            <span>homeworks 2</span>
+            <span>homework 2</span>
             <div className={s.a}>
                 <Affairs data={filteredAffairs}
                          setFilter={setFilter}

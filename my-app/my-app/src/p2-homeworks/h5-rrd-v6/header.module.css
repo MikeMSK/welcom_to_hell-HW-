@@ -1,0 +1,52 @@
+:link {
+    background: #c8f8ae;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+:link:hover {
+    text-decoration: none;
+    color: #ab75e3;
+}
+
+.hw5 {
+    border-bottom: grey 1px solid;
+}
+
+.numberHW {
+    margin-top: 10px;
+}
+
+.hashRoute {
+    margin-top: 10px;
+}
+
+.block {
+    width: 15px;
+    height: 21px;
+
+    /*margin: 10px;*/
+    background: #ab75e3;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.header {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 10px;
+
+    transition-duration: 1000ms;
+    transform: translate(-288px);
+}
+
+.header:hover {
+
+    transition-duration: 1000ms;
+    transform: translate(0px);
+}
+
+.active {
+    font-size: 100px;
+}

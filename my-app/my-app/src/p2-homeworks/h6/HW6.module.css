@@ -1,0 +1,15 @@
+.hw6 {
+    border-bottom: grey 1px solid;
+}
+
+.marginHeader {
+    margin-top: 10px;
+}
+
+.editableSpan {
+    margin: 20px 0px;
+}
+
+.span {
+    cursor: pointer;
+}

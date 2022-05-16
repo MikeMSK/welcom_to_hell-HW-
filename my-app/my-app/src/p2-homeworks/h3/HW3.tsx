@@ -18,7 +18,7 @@ function HW3() {
     return (
         <div className={s.marginHeader}>
             <span className={s.hw3}>
-                homeworks 3
+                homework 3
             </span>
             <div className={s.componentGreeting}>
                 <GreetingContainer users={users}

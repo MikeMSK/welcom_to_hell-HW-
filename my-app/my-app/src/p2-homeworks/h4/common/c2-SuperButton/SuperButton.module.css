@@ -23,6 +23,8 @@
     overflow: hidden;
     cursor: pointer;
     font-size: 12px;
+    border: none;
+    padding: 5px 10px 5px 10px;
 }
 
 .button::after {
@@ -72,7 +74,7 @@
 
 .button:disabled {
     color: #caf897;
-    cursor:not-allowed ;
+    cursor: not-allowed;
 }
 
 .button:disabled::after {

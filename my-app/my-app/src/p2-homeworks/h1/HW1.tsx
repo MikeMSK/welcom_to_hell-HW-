@@ -15,7 +15,7 @@ const messageData = {
 function HW1() {
     return (
         <div className={s.hw1}>
-            <span>homeworks 1</span>
+            <span>homework 1</span>
             <Message avatar={messageData.avatar}
                      name={messageData.name}
                      message={messageData.message}

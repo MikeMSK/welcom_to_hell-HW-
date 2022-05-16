@@ -22,7 +22,7 @@ function HW4() {
     return (
         <div className={s.marginHeader}>
             <span className={s.hw4}>
-                homeworks 4
+                homework 4
             </span>
 
             <div className={s.column}>
