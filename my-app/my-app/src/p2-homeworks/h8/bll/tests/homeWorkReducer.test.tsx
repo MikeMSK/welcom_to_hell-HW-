@@ -18,7 +18,14 @@ beforeEach(() => {
 test('sort name up', () => {
     const newState = homeWorkReducer(initialState, {type: 'NAME_AZ', payload: 'up'})
     expect(newState[0]._id).toBe(1)
+
+    expect(newState[0].name.toLowerCase() < newState[1].name.toLowerCase()).toBe(true)
+
+    // const result = [1, 3, 4, 5, 2, 0].filter((el, i) => el === newState[i]._id)
+    // expect(result.length).toBe(newState.length)
+    //test ignat
 })
+
 
 test('sort name down', () => {
     const newState = homeWorkReducer(initialState, {type: 'NAME_ZA', payload: 'down'})
@@ -28,4 +35,5 @@ test('sort name down', () => {
 test('AGE_40+', () => {
     const newState = homeWorkReducer(initialState, {type: 'AGE_40+', payload: 40})
     expect(newState.length).toBe(3)
+
 })
