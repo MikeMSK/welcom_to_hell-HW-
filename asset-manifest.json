@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/welcom_to_hell-HW-/static/css/main.a10211b5.css",
-    "main.js": "/welcom_to_hell-HW-/static/js/main.8a66dc07.js",
+    "main.css": "/welcom_to_hell-HW-/static/css/main.d73aa3e6.css",
+    "main.js": "/welcom_to_hell-HW-/static/js/main.e7e972bb.js",
     "index.html": "/welcom_to_hell-HW-/index.html",
-    "main.a10211b5.css.map": "/welcom_to_hell-HW-/static/css/main.a10211b5.css.map",
-    "main.8a66dc07.js.map": "/welcom_to_hell-HW-/static/js/main.8a66dc07.js.map"
+    "main.d73aa3e6.css.map": "/welcom_to_hell-HW-/static/css/main.d73aa3e6.css.map",
+    "main.e7e972bb.js.map": "/welcom_to_hell-HW-/static/js/main.e7e972bb.js.map"
   },
   "entrypoints": [
-    "static/css/main.a10211b5.css",
-    "static/js/main.8a66dc07.js"
+    "static/css/main.d73aa3e6.css",
+    "static/js/main.e7e972bb.js"
   ]
 }
