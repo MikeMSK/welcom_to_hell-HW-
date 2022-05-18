@@ -1,6 +1,7 @@
 import React from 'react'
 import Clock from './Clock'
 import s from "./HW9.module.css"
+import AlternativeClock from "./AlternativeClock";
 
 function HW9() {
     return (
@@ -11,7 +12,11 @@ function HW9() {
                 </span>
             </div>
             <div className={s.body}>
+                Original clock:
                 <Clock/>
+                <br/>
+                Alternative clock (moment.js):
+                <AlternativeClock/>
             </div>
         </div>
     )
